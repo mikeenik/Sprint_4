@@ -1,7 +1,6 @@
 package ru.yandex.praktikum;
 
 public class TestData {
-
     public static String EXPECTED_TEXT_FIRST_ELEMENT = "Сутки — 400 рублей. Оплата курьеру — наличными или картой.";
     public static String EXPECTED_TEXT_SECOND_ELEMENT = "Пока что у нас так: один заказ — один самокат. Если хотите " +
             "покататься с друзьями, можете просто сделать несколько заказов — один за другим.";

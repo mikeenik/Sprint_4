@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class AboutRentPage {
-
     private WebDriver driver;
     //Поле "Когда привезти самокат"
     private By whenScooterDeliveryField;
@@ -12,8 +11,6 @@ public class AboutRentPage {
     private By rentPeriodField;
     //Черный цвет самоката
     private By blackScooter;
-    //Серый цвет самоката
-    private By greyScooter;
     //Поле "Комментарий для курьера"
     private By commentForCourierField;
     //Кнопка заказать
@@ -26,7 +23,6 @@ public class AboutRentPage {
         this.whenScooterDeliveryField = By.xpath("//input[@placeholder = '* Когда привезти самокат']");
         this.rentPeriodField = By.xpath("//div[@class = 'Dropdown-control']");
         this.blackScooter = By.id("black");
-        this.greyScooter = By.id("grey");
         this.commentForCourierField = By.xpath("//input[@placeholder = 'Комментарий для курьера']");
         this.orderButton = By.xpath("//div/button[@class='Button_Button__ra12g Button_Middle__1CSJM']");
         this.confirmationOrderButton = By.xpath("//button[text()='Да']");
@@ -44,10 +40,6 @@ public class AboutRentPage {
 
     public void choiceBlackScooter() {
         driver.findElement(blackScooter).click();
-    }
-
-    public void choiceGreyScooter() {
-        driver.findElement(greyScooter).click();
     }
 
     public void enterCommentForCourier(String comment) {

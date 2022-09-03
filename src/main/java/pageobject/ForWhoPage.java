@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class ForWhoPage {
-
     private WebDriver driver;
     //Поле имя
     private By nameField;
@@ -18,7 +17,6 @@ public class ForWhoPage {
     private By stationField;
     //Кнопка "Далее"
     private By nextButton;
-
 
     public ForWhoPage(WebDriver driver) {
         this.driver = driver;

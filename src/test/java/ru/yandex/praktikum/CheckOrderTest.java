@@ -26,7 +26,7 @@ public class CheckOrderTest extends BaseTest {
     }
 
     // Тестовые данные
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Тестовые данные: {0} {1} {2} {3} {4} {5}")
     public static Object[][] getCredentials() {
         return new Object[][]{
                 {"Миша", "Еник", "Санкт-Петербург", "Университет", "+79217797100", "Все будет хорошо!"},
@@ -72,6 +72,5 @@ public class CheckOrderTest extends BaseTest {
         objAboutRentPage.clickConfirmationOrderButton();
         //Тест падает, так как в хроме баг, добавил ожидания появление кнопки "Проверить статус"
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//button[text()='Посмотреть статус']"))));
-
     }
 }

@@ -11,11 +11,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pageobject.AboutRentPage;
 import pageobject.ForWhoPage;
 import pageobject.MainPage;
-
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-
     protected static WebDriver driver;
     protected static MainPage objMainPage;
     protected static WebDriverWait wait;

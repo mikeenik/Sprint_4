@@ -7,12 +7,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import static org.junit.Assert.assertEquals;
 import static ru.yandex.praktikum.TestData.*;
 
-
 public class CheckImportantQuestionsTest extends BaseTest {
 
     @Test
     public void firstAnswersShouldBeDisplayed() {
-
         var question = objMainPage.getQuestions().get(0);
         var answer = objMainPage.getAnswers().get(0);
 
@@ -27,7 +25,6 @@ public class CheckImportantQuestionsTest extends BaseTest {
 
     @Test
     public void secondAnswersShouldBeDisplayed() {
-
         var question = objMainPage.getQuestions().get(1);
         var answer = objMainPage.getAnswers().get(1);
 
@@ -42,7 +39,6 @@ public class CheckImportantQuestionsTest extends BaseTest {
 
     @Test
     public void thirdAnswersShouldBeDisplayed() {
-
         var question = objMainPage.getQuestions().get(2);
         var answer = objMainPage.getAnswers().get(2);
 
@@ -57,7 +53,6 @@ public class CheckImportantQuestionsTest extends BaseTest {
 
     @Test
     public void fourthAnswersShouldBeDisplayed() {
-
         var question = objMainPage.getQuestions().get(3);
         var answer = objMainPage.getAnswers().get(3);
 
@@ -72,7 +67,6 @@ public class CheckImportantQuestionsTest extends BaseTest {
 
     @Test
     public void fifthAnswersShouldBeDisplayed() {
-
         var question = objMainPage.getQuestions().get(4);
         var answer = objMainPage.getAnswers().get(4);
 
@@ -87,7 +81,6 @@ public class CheckImportantQuestionsTest extends BaseTest {
 
     @Test
     public void sixthAnswersShouldBeDisplayed() {
-
         var question = objMainPage.getQuestions().get(5);
         var answer = objMainPage.getAnswers().get(5);
 
@@ -102,7 +95,6 @@ public class CheckImportantQuestionsTest extends BaseTest {
 
     @Test
     public void seventhAnswersShouldBeDisplayed() {
-
         var question = objMainPage.getQuestions().get(6);
         var answer = objMainPage.getAnswers().get(6);
 
@@ -117,7 +109,6 @@ public class CheckImportantQuestionsTest extends BaseTest {
 
     @Test
     public void eighthAnswersShouldBeDisplayed() {
-
         var question = objMainPage.getQuestions().get(7);
         var answer = objMainPage.getAnswers().get(7);
 
